@@ -11,3 +11,7 @@
 
 * **Community detection:**: Louvain algorithm and Synchronous label propagation 
 
+to run website use comands
+
+cd website
+py -3 manage.py runserver
