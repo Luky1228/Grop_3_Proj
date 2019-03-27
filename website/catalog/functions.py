@@ -1,9 +1,11 @@
 
 #   Реализовать 2 функции
 
-def getGraph(yearls):
-    df = yearls
+
+def getGraph(year, graph):
+    df = year + graph
     return df
+
 
 def drowG():
     #save(.static/Graphs/graph.png)
