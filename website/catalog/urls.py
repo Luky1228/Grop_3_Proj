@@ -5,6 +5,5 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^PageObjects', views.GraphV, name='Graphs2013'),
+    url(r'^PageObjects', views.GraphV, name='Graphs'),
 ]
-#?[\w]*=P<y>[\d]*.*=P<a>\w+$

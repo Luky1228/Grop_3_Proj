@@ -1,18 +1,18 @@
-from Selector import Selector
-from Tablecreator import TableCreator
-from Inserter import Inserter
+from .bd.Selector import Selector
 import networkx as nx
 import matplotlib.pyplot as plt
 
+name = 'test.db'
 
-def create_df_authors_for_year(year, DB_name='test.db'):
+def create_df_authors_for_year(year, DB_name=name):
     testDB = Selector(DB_name)
     df = testDB.make_df_for_year(year)
     testDB.closeConnect()
     return df
 
 
-def create_df_authors_for_period(start, finish, DB_name='test.db'):
+def create_df_authors_for_period(start, finish, DB_name=name):
+
     df = create_df_authors_for_year(start, DB_name)
     for year in range(start + 1, finish + 1):
         df = df.append(create_df_authors_for_year(year, DB_name))
@@ -41,17 +41,23 @@ def getGraph(year, type):
     if type == 'co-authorship':
         df = create_df_authors_for_year(year)
         G = create_graph_from_pandas_df(df)
-        if drawG(G) != 0:
+        if drawG(G, year, type) != 0:
             print('something went wrong!')
     elif type == 'citations':
         ### citations' funcions go here
         pass
     return G
 
-def drawG(G):
+def drawG(G, year, type):
     nx.draw(G)
+    plt.figure(figsize=(30, 30))
+    plt.axis('off')
+    layout = nx.kamada_kawai_layout(G)
+    nx.draw_networkx_edges(G, pos=layout)
+    nx.draw_networkx_nodes(G, pos=layout, node_color='blue')
+    plt.title(type + ' ' + str(year), fontsize=80)
     plt.draw()
-    plt.savefig('.static/Graphs/graph.png', format="PNG")
-    #save('.static/Graphs/graph.png')
+    plt.savefig('catalog/static/Graphs/Graph.png')
+
 
 
