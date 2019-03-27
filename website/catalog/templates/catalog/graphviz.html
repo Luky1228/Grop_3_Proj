@@ -5,4 +5,14 @@
 
     {% load static %}
           <img src="{% static 'Graphs/Graph.png' %}" alt="My image" style="width:555px;height:540px;"/>
+    <form action="PageObjects" method="get">
+       <select name="layout">
+           <option selected="selected" disabled>Objects on page:</option>
+           <option value="random">Random</option>
+           <option value="circular">Circular</option>
+           <option value="kamada_kawai">Kamada Kawai</option>
+           <option value="spring">Spring</option>
+       </select>
+        <input type="submit" value="Select">
+    </form>
 {% endblock %}

@@ -41,18 +41,25 @@ def getGraph(year, type):
     if type == 'co-authorship':
         df = create_df_authors_for_year(year)
         G = create_graph_from_pandas_df(df)
-        if drawG(G, year, type) != 0:
+        if drawG(G, year, type, 'random') != 0:
             print('something went wrong!')
     elif type == 'citations':
         ### citations' funcions go here
         pass
     return G
 
-def drawG(G, year, type):
+def drawG(G, year, type, layout):
     nx.draw(G)
     plt.figure(figsize=(30, 30))
     plt.axis('off')
-    layout = nx.kamada_kawai_layout(G)
+    if layout == 'random':
+        layout = nx.random_layout(G)
+    if layout == 'circular':
+        layout = nx.circular_layout(G)
+    if layout == 'kamada_kawai':
+        layout = nx.kamada_kawai_layout(G)
+    if layout == 'spring':
+        layout = nx.spring_layout(G)
     nx.draw_networkx_edges(G, pos=layout)
     nx.draw_networkx_nodes(G, pos=layout, node_color='blue')
     plt.title(type + ' ' + str(year), fontsize=80)

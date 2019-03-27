@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33d8be9c-36df-48db-a5da-856f98edaf41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AGTViz_HW1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inserter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainFile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selector.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tablecreator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/catalog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/catalog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/catalog/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/catalog/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/catalog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/catalog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/catalog/static/Graphs/Graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/catalog/static/Graphs/Graph.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/catalog/static/Graphs/terrG1SS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/catalog/templates/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/catalog/templates/base_generic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/catalog/templates/catalog/graphviz.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/catalog/templates/catalog/graphviz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/catalog/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/catalog/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/catalog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/catalog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/catalog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/test.db" beforeDir="false" afterPath="$PROJECT_DIR$/website/test.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/website/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/catalog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="578">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -80,11 +66,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/catalog/functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+            <state relative-caret-position="505">
+              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -92,11 +78,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/catalog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/catalog/templates/catalog/graphviz.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/catalog/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -123,17 +130,18 @@
         <option value="$PROJECT_DIR$/website/catalog/templates/catalog/graphviz_list.html" />
         <option value="$PROJECT_DIR$/Selector.py" />
         <option value="$PROJECT_DIR$/website/website/settings.py" />
-        <option value="$PROJECT_DIR$/website/catalog/templates/index.html" />
         <option value="$PROJECT_DIR$/website/catalog/urls.py" />
-        <option value="$PROJECT_DIR$/website/catalog/functions.py" />
         <option value="$PROJECT_DIR$/website/catalog/templates/base_generic.html" />
         <option value="$PROJECT_DIR$/website/catalog/models.py" />
         <option value="$PROJECT_DIR$/website/catalog/admin.py" />
         <option value="$PROJECT_DIR$/website/catalog/views.py" />
+        <option value="$PROJECT_DIR$/website/catalog/functions.py" />
+        <option value="$PROJECT_DIR$/website/catalog/templates/index.html" />
+        <option value="$PROJECT_DIR$/website/catalog/templates/catalog/graphviz.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -268,12 +276,12 @@
       <workItem from="1553632309666" duration="371000" />
       <workItem from="1553632706143" duration="12750000" />
       <workItem from="1553668728010" duration="20737000" />
-      <workItem from="1553722005848" duration="3921000" />
+      <workItem from="1553722005848" duration="6614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37779000" />
+    <option name="totallyTimeSpent" value="40472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -395,43 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/catalog/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/catalog/templates/catalog/graphviz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/catalog/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/catalog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/catalog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/catalog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -449,20 +420,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/catalog/admin.py">
+    <entry file="file://$PROJECT_DIR$/website/catalog/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/catalog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/catalog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/catalog/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        <state relative-caret-position="505">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/catalog/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/catalog/templates/catalog/graphviz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/catalog/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
