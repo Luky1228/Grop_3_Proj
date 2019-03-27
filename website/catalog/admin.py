@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import GraphViz,GraphCreation
 
-# Register your models here.
+admin.site.register(GraphViz)
+admin.site.register(GraphCreation)
+
