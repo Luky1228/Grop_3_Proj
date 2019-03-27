@@ -54,5 +54,6 @@ def drawG(G):
     plt.draw()
     plt.savefig('.static/Graphs/graph.png', format="PNG")
     #save('.static/Graphs/graph.png')
+
     return 0
 

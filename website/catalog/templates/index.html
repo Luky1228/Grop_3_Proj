@@ -9,7 +9,25 @@
 
   <p>You can draw following graphs</p>
   <ul>
-    <li><strong>Graphs</strong> {{cr}}</li>
+    <form action="PageObjects" method="get">
+       <select name="year">
+        <option selected="selected" disabled>Objects on page:</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">30</option>
+        <option value="2013">40</option>
+        <option value="2015">50</option>
+       </select>
+       <input type="submit" value="Select">
+    </form>
+    <form action="PageObjects" method="get">
+       <select name="graph">
+        <option selected="selected" disabled>Objects on page:</option>
+        <option value="2010">"1"</option>
+        <option value="2011">"1"</option>
+       </select>
+       <input type="submit" value="Select">
+    </form>
   </ul>
 
 {% endblock %}
