@@ -4,6 +4,7 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    url(r'^books/$', views.Graphs.as_view(), name='Graphs'),
+    url(r'^$', views.index, name='index'),
+    url(r'^PageObjects', views.GraphV, name='Graphs2013'),
 ]
+#?[\w]*=P<y>[\d]*.*=P<a>\w+$

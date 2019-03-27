@@ -6,10 +6,6 @@ from django.views import generic
 
 # Create your views here.
 def index(request):
-
-
-    year = request.GET['year']
-    graph = request.GET['graph']
     cr = GraphCreation.objects.all()
     return render(
         request,
@@ -18,5 +14,17 @@ def index(request):
     )
 
 
-class Graphs(generic.ListView):
-    model = GraphCreation
+
+def GraphV(request):
+    if request.method == 'GET':
+        y = request.GET['year']
+        a = request.GET['graph']
+    drowG(getGraph(y,a))
+
+    # book_id=get_object_or_404(Book, pk=pk)
+
+    return render(
+        request,
+        'catalog/graphviz.html',
+    )
+
